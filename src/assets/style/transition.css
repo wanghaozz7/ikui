@@ -1,0 +1,317 @@
+.translate-right-down-enter-from {
+  opacity: 0;
+  transform: translate(30px, 10px);
+}
+
+.translate-right-down-enter-active {
+  transition: all 0.3s ease;
+}
+
+.translate-right-down-enter-to {
+  opacity: 1;
+}
+
+.translate-right-down-leave-active {
+  transition: all 0.3s ease;
+}
+
+.translate-right-down-leave-to {
+  opacity: 0;
+  transform: translate(30px, 10px);
+}
+
+.kunai-enter-from {
+  opacity: 0;
+  /* transform: rotate3d(45deg); */
+}
+
+.kunai-enter-active {
+  transition: all 0.3s ease;
+}
+
+.kunai-enter-to {
+  opacity: 1;
+}
+
+.kunai-leave-active {
+  transition: all 0.3s ease;
+}
+
+.kunai-leave-to {
+  opacity: 0;
+  /* transform: rotate3d(45deg); */
+}
+
+
+
+/* 加速后减速 */
+.ease-in-out-enter-from {
+  opacity: 0;
+}
+
+.ease-in-out-enter-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.ease-in-out-enter-to {
+  opacity: 1;
+}
+
+.ease-in-out-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+.ease-in-out-leave-to {
+  opacity: 0;
+  /* transform: translateX(15px); */
+}
+
+/* 匀速 */
+.linear-enter-from {
+  opacity: 0;
+}
+
+.linear-enter-active {
+  transition: all 0.3s linear;
+}
+
+.linear-enter-to {
+  opacity: 1;
+}
+
+.linear-leave-active {
+  transition: all 0.3s linear;
+}
+
+.linear-leave-to {
+  opacity: 0;
+}
+
+/* 加速 */
+.ease-in-enter-from {
+  opacity: 0;
+}
+
+.ease-in-enter-active {
+  transition: all 0.3s ease-in;
+}
+
+.ease-in-enter-to {
+  opacity: 1;
+}
+
+.ease-in-leave-active {
+  transition: all 0.3s ease-in;
+}
+
+.ease-in-leave-to {
+  opacity: 0;
+}
+
+/* 缩放 */
+.scale-in-out-enter-from {
+  transform: scale(0);
+}
+
+.scale-in-out-enter-active {
+  transition: all 0.3s ease;
+}
+
+.scale-in-out-enter-to {
+  transform: scale(1);
+}
+
+.scale-in-out-leave-active {
+  transition: all 0.3s ease;
+}
+
+.scale-in-out-leave-to {
+  transform: scale(0);
+}
+
+/* 旋转缩小 */
+.scale-rotate-enter-from {
+  transform: scale(0) rotate(360deg);
+}
+
+.scale-rotate-enter-active {
+  transition: all 0.3s ease;
+  /* transform: scale(1) rotate(90deg); */
+}
+
+.scale-rotate-enter-to {
+  transform: scale(1);
+}
+
+.scale-rotate-leave-active {
+  transition: all 0.3s ease;
+}
+
+.scale-rotate-leave-to {
+  transform: scale(0) rotate(360deg);
+}
+
+
+/* 收缩到上面的边 */
+.shrink-in-top-enter-from {
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.shrink-in-top-enter-active {
+  transition: all 0.15s ease-in-out;
+  transform-origin: top center;
+}
+
+.shrink-in-top-enter-to {
+  transform: scaleY(1);
+  transform-origin: top center;
+}
+
+.shrink-in-top-leave-from {
+  transform-origin: top center;
+}
+
+.shrink-in-top-leave-active {
+  transform-origin: top center;
+  transition: all 0.15s ease-in-out;
+}
+
+.shrink-in-top-leave-to {
+  transform-origin: top center;
+  transform: scaleY(0);
+}
+
+
+/* 收缩到下面的边 */
+.shrink-in-bottom-enter-from {
+  transform: scaleY(0);
+  transform-origin: bottom center;
+}
+
+.shrink-in-bottom-enter-active {
+  transition: all 0.15s ease-in-out;
+  transform-origin: bottom center;
+}
+
+.shrink-in-bottom-enter-to {
+  transform: scaleY(1);
+  transform-origin: bottom center;
+}
+
+.shrink-in-bottom-leave-from {
+  transform-origin: bottom center;
+}
+
+.shrink-in-bottom-leave-active {
+  transition: all 0.15s ease-in-out;
+}
+
+.shrink-in-bottom-leave-to {
+  transform-origin: bottom center;
+  transform: scaleY(0);
+}
+
+/* 收缩到左侧的边 */
+.shrink-in-left-enter-from {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.shrink-in-left-enter-active {
+  transition: all 0.15s ease-in-out;
+  transform-origin: left center;
+}
+
+.shrink-in-left-enter-to {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+.shrink-in-left-leave-from {
+  transform-origin: left center;
+}
+
+.shrink-in-left-leave-active {
+  transition: all 0.15s ease-in-out;
+}
+
+.shrink-in-left-leave-to {
+  transform-origin: left center;
+  transform: scaleX(0);
+}
+
+/* 收缩到右侧的边 */
+.shrink-in-right-enter-from {
+  transform: scaleX(0);
+  transform-origin: right center;
+}
+
+.shrink-in-right-enter-active {
+  transition: all 0.15s ease-in-out;
+  transform-origin: lrighteft center;
+}
+
+.shrink-in-right-enter-to {
+  transform: scaleX(1);
+  transform-origin: right center;
+}
+
+.shrink-in-right-leave-from {
+  transform-origin: right center;
+}
+
+.shrink-in-right-leave-active {
+  transition: all 0.15s ease-in-out;
+}
+
+.shrink-in-right-leave-to {
+  transform-origin: right center;
+  transform: scaleX(0);
+}
+
+
+/* 向x轴折叠 */
+.zoom-in-x-enter-from {
+  transform: rotateX(90deg);
+}
+
+.zoom-in-x-enter-active {
+  transition: all 0.3s ease;
+  /* transform: scale(1) rotate(90deg); */
+}
+
+.zoom-in-x-enter-to {
+  transform: rotateX(0);
+}
+
+
+.zoom-in-x-leave-active {
+  transition: all 0.3s ease;
+}
+
+.zoom-in-x-leave-to {
+  transform: rotateX(90deg);
+}
+
+/* 向y轴折叠 */
+.zoom-in-y-enter-from {
+  transform: rotateY(90deg);
+}
+
+.zoom-in-y-enter-active {
+  transition: all 0.3s ease;
+}
+
+.zoom-in-y-enter-to {
+  transform: rotateY(0);
+}
+
+
+.zoom-in-y-leave-active {
+  transition: all 0.3s ease;
+}
+
+.zoom-in-y-leave-to {
+  transform: rotateY(90deg);
+}

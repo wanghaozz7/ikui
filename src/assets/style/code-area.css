@@ -1,0 +1,13 @@
+.normalCode {
+  height: 14px;
+  padding: 5px;
+  color: #409eff;
+}
+
+.word-key {
+  color: #606266;
+}
+
+.word-string {
+  color: #756bb1;
+}
